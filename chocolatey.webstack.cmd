@@ -7,7 +7,7 @@ choco install yeoman
 powershell -Command "New-Item -path $profile file -force"
 powershell -Command "write "Set-Alias subl 'C:\Program Files\Sublime Text 2\sublime_text.exe'" " >$profile
 @powershell -Command "subl"
-@powershell -Command "Install-Module posg-git"
+
 
  
  
